@@ -31,7 +31,7 @@ The imbalanced-learn and scikit-learn libraries were used to build and evaluate 
 
  - Accuracy is 63%
  - Precision is low for the predictive value for high risk credit at 1% and high for low risk credit at 100%
- - Recall is 62% for high risk and 65% for low risk 
+ - Recall is 62% for high risk and 64% for low risk 
 
 ![ClusterCentroidsUndersampling_Accuracy](https://user-images.githubusercontent.com/90982811/155032574-35ebd7e6-a429-4480-843d-14f06ad063b1.jpg)
 
