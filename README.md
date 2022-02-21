@@ -50,3 +50,8 @@ The imbalanced-learn and scikit-learn libraries were used to build and evaluate 
 
 ## Summary
 
+The four oversampling and undersampling models returned low accuracy scores.  In addition, the precision for high risk credit within these models was only 1% with unimpressive recall rates.
+
+The Balanced Random Forest Classifier returned a higher accuracy rate of 78.8%, a higher precision for high risk credit at 4%, and higher recall rates.
+
+The Easy Ensemble Classifier returned the highest all around results with 92.5% accuracy.  The model is accurate at returning true positives with 91% recall for high risk credit and 94% for low risk credit.  The precision has been consistent across all models returning 100% performance for low risk credit.  The Easy Ensemble Classifier returned the highest predictive value for high risk credit with a 7% precision rate.  Since the precision is so low for accurately predicting high risk credit, it is recommended that the lending service compare this precision rate against industry standards.  The lending service may not want to rely on a model that turns that many customers away if they in fact were not a high risk, however predicting credit is complex.  If the precision rate is within industry standard, I would recommend the Easy Ensemble Classifier since it has the overall best results with accuracy and recall scores.
